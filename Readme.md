@@ -8,7 +8,19 @@ works with [coc.nvim](https://github.com/neoclide/coc.nvim)
 In your vim/neovim, run command:
 
 ```
-:CocInstall coc-yaml
+Executing within nvim and vim works:
+
+:call coc#util#install()
+[coc.nvim] Update completed
+
+:checkhealth
+health#coc#check
+========================================================================
+  - OK: Environment check passed
+
+  - OK: Javascript bundle found
+  - OK: Service started
+
 ```
 
 ## Features
