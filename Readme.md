@@ -7,6 +7,13 @@ works with [coc.nvim](https://github.com/neoclide/coc.nvim)
 
 In your vim/neovim, run command:
 
+vimrc
+Plugin 'neoclide/coc.nvim'
+
+nvim
+Edit this file .config/nvim/init.vim
+Plug 'neoclide/coc.nvim'
+
 ```
 Executing within nvim and vim works:
 
